@@ -80,3 +80,8 @@ git bisect good
 ### Finalización
 
 Podemos utilizar `git bisect reset` para terminar la sesión. Esto nos llevará a HEAD del branch.
+
+
+### Demo
+
+En este link hay una grabación de una corrida del procedimiento propuesto: https://asciinema.org/a/Ir8h8WEM6vbKaRps
