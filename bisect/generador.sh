@@ -11,14 +11,16 @@ for i in {1..$CANTIDAD}
   do
 	if [[ $i == $COMMIT_ERRONEO ]];
 	then
-	  randomStr=" -- error -- "
+	  randomStr=" -- introduce el error -- "
+  	else
+	  randomStr=""
 	fi
 	echo $i $randomStr >> archivo.txt
 	git add archivo.txt
 	git commit -m "codigo nro ${i} ${randomStr}"
   done
 
-echo Proceso finaliizado
+echo Proceso finalizado
 echo Se debe trabajar entre los commits $HASH_INICIAL y HEAD
 echo
 echo Por ejemplo:

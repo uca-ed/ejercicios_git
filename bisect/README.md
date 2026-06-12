@@ -84,4 +84,8 @@ Podemos utilizar `git bisect reset` para terminar la sesión. Esto nos llevará 
 
 ### Demo
 
-En este link hay una grabación de una corrida del procedimiento propuesto: https://asciinema.org/a/Ir8h8WEM6vbKaRps
+En este link hay una grabación de una corrida del procedimiento propuesto: https://asciinema.org/a/0GVoMzKTQH9ttXkC
+
+> [!NOTE]
+> En la grabación se cambia de directorio para correr tests y ejecutar git bisect, ya que ese comando se debe correr en el directorio raíz del repositorio.
+
